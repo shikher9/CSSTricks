@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <title>CSS Box Shadow</title>
+    </head>
+    <body>
+        <h1>Box Shadow Example</h1>
+        <div id="square">
+
+        </div>
+        <pre>
+        CSS
+                <strong>box-shadow:3px 3px 3px 3px rgba(255,255,255,0.7);</strong>
+
+        <em>
+            The <strong>horizontal offset</strong> of the shadow, positive means the shadow will be on the right of the
+            box, a negative
+            offset will put the shadow on the left of the box.
+
+            The <strong>vertical offset</strong> of the shadow, a negative one means the box-shadow will be above the
+            box, a positive one
+            means the shadow will be below the box.
+
+            The <strong>blur radius (optional)</strong>, if set to 0 the shadow will be sharp, the higher the number,
+            the more blurred it
+            will be.
+
+            The <strong>spread radius (optional)</strong>, positive values increase the size of the shadow, negative
+            values decrease the
+            size. Default is 0 (the shadow is same size as blur).
+
+            <strong>Color</strong>
+        </em>
+        </pre>
+        <h1>Inner Shadow Example</h1>
+        <div id="square-inner">
+
+        </div>
+        <pre>
+        CSS
+                <strong>box-shadow: inset 0 0 10px #000000;</strong>
+        </pre>
+        <h1>One-Side Only</h1>
+        <div id="square-oneside">
+
+        </div>
+        <pre>
+        CSS
+                <strong>box-shadow: 0 8px 6px -5px white;</strong>
+        </pre>
+    </body>
+</html>
